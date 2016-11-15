@@ -1,0 +1,150 @@
+/* App의 배경 */
+#app_background{
+  width: 640px;
+  height: 1136px;
+  background-image: url('src/app_list_bg.jpg');
+  /*background-color: orange;*/
+}
+
+/* App의 최상단 헤더 영역 */
+#app_header{
+  width: 100%;
+  height: 100px;
+  padding-top:35px;
+}
+
+/* App의 헤더영역 중 왼쪽 탭을 감싼 영역 */
+#app_left_tab{
+  float:left;
+  width: 320px;
+  height: 77px;
+}
+
+/* App의 헤더영역 중 오른쪽 탭을 감싼 영역 */
+#app_right_tab{
+  float: right;
+  width: 320px;
+  height: 77px;
+}
+
+/* 메인 페이지의 App 삭제버튼 */
+#btn_del{
+  cursor: pointer;
+  width: 320px;
+}
+
+/* 메인 페이지의 App 추가버튼 */
+#btn_add{
+  cursor: pointer;
+  width: 320px;
+}
+
+/* 추가 페이지의 취소 버튼 */
+#btn_cancle{
+  cursor: pointer;
+  width: 132px;
+  display: none;
+  margin-top: 8px;
+}
+
+/* 추가 페이지의 완료버튼 */
+#btn_complete{
+  cursor: pointer;
+  float:right;
+  width: 132px;
+  display: none;
+  margin-top: 8px;
+}
+
+/* 헤더 아래 몸체부분 */
+#app_body{
+  height: 100%;
+}
+
+/* 테이블모양의 메인 영역 */
+#app_body_list_table{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* App Color, Text를 감싼 개별 리스트 영역 */
+.app_body_item{
+  width: 25%;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+  }
+
+/* App 리스트 내부 Details_img */
+.app_body_item .item_img{
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+
+}
+
+/* App 리스트 내부 Details_img hover*/
+.app_body_item .item_img:hover{
+  -webkit-filter: brightness(40%);
+  -moz-filter: brightness(40%);
+  -ms-filter: brightness(40%);
+  -o-filter: brightness(40%);
+  -webkit-transition: 0.6s;
+  -moz-transition:0.6s;
+  -ms-transition:0.6s;
+  -o-transition:0.6s;
+  transition: 0.6s;
+
+
+}
+
+/* App 리스트 내의 item 이름 */
+.app_body_item .item_title{
+  margin-top:5px;
+  color: white;
+}
+
+/* inpurt 태그를 위한 CSS */
+input{
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+/* input 태그를 감싸는 테이블영역 */
+#app_body_input_table{
+  display: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/* 추가될 App의 Color 를 받기위한 Form 을 감싼 영역 */
+#app_text_color_box{
+  margin-bottom: 20px;
+}
+
+
+/* 앱 색상 (예) #121212*/
+#add_text_color{
+  width: 210px;
+  height: 27px;
+}
+
+/* 추가될 App의 name 를 받기위한 Form 을 감싼 영역 */
+#app_text_name_box{
+}
+
+/* 앱 이름 */
+#add_text_name{
+  width: 85px;
+  height:27px;
+}

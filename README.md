@@ -1,0 +1,3 @@
+#CrossBrowsing example
+
+using Native javascript Event check, support IE webkit opera ...

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="app_background">
+      <!-- application 헤더 -->
+      <div id="app_header">
+        <!-- 헤더의 왼쪽 탭 부분 -->
+        <div id="app_left_tab">
+          <img id="btn_cancle" src="src/app_cancle_btn.jpg" onclick="handleCancleTab()"/>
+          <img id="btn_del" src="src/app_del_btn.jpg" onclick="handleDelTab(global_item)"/>
+        </div>
+        <!-- 헤더의 왼쪽 탭 부분 -->
+        <!-- 헤더의 오른쪽 탭 부분 -->
+        <div id="app_right_tab">
+          <img id="btn_complete" src="src/app_complete_btn.jpg" onclick="handleCompleteTab()"/>
+          <img id="btn_add"src="src/app_add_btn.jpg" onclick="handleAddTab()"/>
+        </div>
+      </div>
+      <!-- 헤더의 오른쪽 탭 부분 -->
+      <!-- application 헤더 -->
+      <!-- application 몸체 -->
+      <div id="app_body">
+        <!-- APP List 12개 -->
+        <div id="app_body_list_table">
+
+        </div>
+        <!-- APP List -->
+        <!-- App 추가 input Form -->
+        <div id="app_body_input_table">
+          <div id="app_text_color_box">
+            <img src="src/text_color.png" id="add_text_color"><br>
+            <input id="appColor" type="text" name="appColor" maxlength="7" placeholder="#121212"/><br>
+          </div>
+          <div id="app_text_name_box">
+            <img src="src/text_name.png" id="add_text_name"><br>
+            <input id="appName" type="text" name="appName" placeholder="APP13"/><br>
+          </div>
+        </div>
+        <!-- App 추가 input Form -->
+      </div>
+      <!-- application 몸체 -->
+    </div>
+  </body>
+</html>
